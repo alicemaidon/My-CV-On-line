@@ -1,0 +1,95 @@
+/* Write some CSS below */
+body {
+	margin: 0;
+}
+
+h1 {
+	color: white;
+	text-align: right;
+	font-family: 'chivo', cursive;
+	font-size: 100px;
+}
+
+h2 {
+	color: white;
+	font-family: 'chivo';
+	text-align: right;
+	font-size: 50px;
+}
+
+h3 {
+	color: white;
+	text-align: right;
+	font-family: 'Times New Roman';
+	font-size: 25px;
+}
+
+h4 {
+	font-family: 'Times New Roman';
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+}
+
+img {
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h4 {
+	color: darkblue;
+	font-weight: bold;
+}
+
+.banner {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('images/Photo2A.jpg');
+	padding: 200px 100px;
+}
+
+.banner p {
+	font-size: 38px;
+}
+
+.academic-cursus {
+	padding: 50px 50px;
+	background-color: rgba(245, 245, 245, 1.0);
+}
+
+.light-blue {
+	background-color: lightblue;
+	padding: 50px 50px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.card {
+	background-color: white;
+	border-radius: 10px;
+	padding: 30px 30px;
+	box-shadow: 10px 10px 10px darkblue;
+}
+
+.footer {
+	background-color: black;
+	padding: 100px 50px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
